@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+  </head>
+
+  <body>
+    <header>
+        <br>
+      <div class="top">Evaluate an Article</div><br>
+      <div class="top">Please enter URL</div>
+      <br>
+    </header>
+
+    <main>
+      <section>
+        <form class="" onsubmit="Client.handleSubmit(event)" onsubmit="return false">
+            <input id="name" type="text" name="input" value=""  placeholder="Name">
+            <input type="submit" name="" value="submit" id ="submitbutton" onclick="Client.handleSubmit(event)">
+        </form>
+        
+    </section>
+
+    <section class = "ResSection">
+     <div> <strong>Article Entered:</strong></div>  
+     <br>
+        <div id="results"></div>
+    </section>
+    <section>
+        <table>
+            <tbody>
+                <tr class ="row">
+                    <td>
+                        <label for ="text">Text:</label>
+                    </td>
+                    <td>
+                        <div id = "text"></div>
+                    </td>
+                </tr>
+
+                <tr class ="row">
+                    <td>
+                        <label for ="polarity">Polarity:</label>
+                    </td>
+                    <td>
+                        <div id = "polarity"></div>
+                    </td>
+                </tr>
+
+                <tr class ="row">
+                    <td>
+                        <label for ="subjectivity">Subjectivity:</label>
+                    </td>
+                    <td> 
+                        <div id ="subjectivity"></div>
+                    </td>
+                </tr>
+
+                <tr class ="row">
+                    <td> 
+                        <label for ="polarityCon">Polarity Confidence:</date>
+                    </td>
+                    <td>  
+                        <div id ="polarityCon"></div>
+                    </td>
+                </tr>
+                    
+                <tr class ="row"> 
+                    <td>
+                        <label for ="sub-con">Subjectivity Confidence: </label>
+                    </td>
+                    <td>  
+                        <div id ="sub-con"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </main>
+  </body>
+</html>

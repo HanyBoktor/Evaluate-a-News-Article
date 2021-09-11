@@ -1,0 +1,15 @@
+form {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input {
+  padding: 5px 20px;
+  width: 100%;
+  line-height: 16px;
+  margin: 10px 0;
+}
